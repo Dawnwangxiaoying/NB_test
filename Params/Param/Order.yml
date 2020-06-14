@@ -1,0 +1,493 @@
+---
+Order:
+  dec: "订单"
+  parameters:
+  #订单-单个计费项下多个策略#
+    -
+      url: /v1/prdorders?
+      data:
+        {
+          "access_sys_id": "sys_B99J7xk9DRJD",
+          "order_user_id": "userid_xiaoying",
+          "order_user_name": "王小英",
+          "order_type": "new",
+          "description": "小英的测试订单",
+          "order_product_set": [
+          {
+            "_id": "67bde5b9-e1a3-4285-8eb2-4c7818fb23a1",
+            "prod_id": "prd_LMXXKn9E0EMr",
+            "product_name": "测试订单账单专用不修改",
+            "prod_inst_id_ext_array": [
+              "88c4735d-df86-49f4-9082-c8b1f3feaa86"
+            ],
+            "plan": {
+              "components": [
+              {
+                "comp_id": "comp_LNDQpmZG9gMr",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              }
+              ],
+              "plan_id": "plan_7APnE54k8kY4"
+            }
+          }
+          ]
+        }
+      header: {
+        'Grpc-Metadata-nb': '1',
+        'Content-Type': 'application/json',
+        'Cookie': 'sk=QPOOFGYHQBDGXGPA3P4E47U7IISSUXDXE7OVCCR5G6VCXJCX5TDI3OGJEX3CRT2L7VYERWCHZJ3U24ISZYDJT4242WVO3MJNCO6R73I'
+      }
+
+    #支付订单#
+    -
+      url: /v1/prdorders/{order_id}:pay
+      data:
+      header: {
+
+          "Grpc-Metadata-nb":"1"
+
+              }
+
+
+    #订单-匹配同一方案多个计费项（计费项下的策略都是按包计费）-购买两个实例#
+    - url: /v1/prdorders?
+      data:
+        {
+          "access_sys_id": "sys_B99J7xk9DRJD",
+          "order_user_id": "userid_xiaoying",
+          "order_user_name": "王小英",
+          "order_type": "new",
+          "description": "小英的测试订单",
+          "order_product_set": [
+          {
+            "_id": "76932612-5343-4b75-b168-a7070f05b6c8",
+            "prod_id": "prd_LMXXKn9E0EMr",
+            "product_name": "测试订单账单专用不修改",
+            "prod_inst_id_ext_array": [
+              "9fdd5060-8304-4381-8cd9-80b831432a6a",
+              "06956b6a-0d4d-41be-9e96-bc424a3b33ac"
+            ],
+            "plan": {
+              "components": [
+              {
+                "comp_id": "comp_LNDQpmZG9gMr",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "3"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              },
+              {
+                "comp_id": "comp_JR3j9XP12WY4",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "3"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              },
+              {
+                "comp_id": "comp_j7w22yLmgXB8",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "3"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              }
+              ],
+              "plan_id": "plan_7APnE54k8kY4"
+            }
+          }
+          ]
+        }
+      header: {
+        'Grpc-Metadata-nb': '1',
+      }
+
+    #订单-匹配同一方案多个计费项（计费项下的策略有按包计费也有按量计费）#
+    - url: /v1/prdorders?
+      data:
+        {
+          "access_sys_id": "sys_B99J7xk9DRJD",
+          "order_user_id": "userid_xiaoying",
+          "order_user_name": "王小英",
+          "order_type": "new",
+          "description": "小英的测试订单",
+          "order_product_set": [
+          {
+            "_id": "f191b23f-cf92-4dc2-8b51-aad193cb7fc3",
+            "prod_id": "prd_LMXXKn9E0EMr",
+            "product_name": "测试订单账单专用不修改",
+            "prod_inst_id_ext_array": [
+              "83477a75-8196-4519-9f36-b2a062ab2a1f"
+            ],
+            "plan": {
+              "components": [
+              {
+                "comp_id": "comp_LNDQpmZG9gMr",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "patr_ServiceHour",
+                  "attr_value": "1"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              },
+              {
+                "comp_id": "comp_JR3j9XP12WY4",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "patr_ServiceHour",
+                  "attr_value": "1"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              },
+              {
+                "comp_id": "comp_j7w22yLmgXB8",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "patr_ServiceHour",
+                  "attr_value": "1"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              },
+              {
+                "comp_id": "comp_rJ9P5rlJkJ5O",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "patr_ServiceHour",
+                  "attr_value": "1"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              }
+              ],
+              "plan_id": "plan_7APnE54k8kY4"
+            }
+          }
+          ]
+        }
+      header: {
+        'Grpc-Metadata-nb': '1',
+      }
+
+
+    #订单-匹配多个方案（其中包括按量和按包）#
+    - url: /v1/prdorders?
+      data:
+        {
+          "access_sys_id": "sys_B99J7xk9DRJD",
+          "order_user_id": "userid_xiaoying",
+          "order_user_name": "王小英",
+          "order_type": "new",
+          "description": "小英的测试订单",
+          "order_product_set": [
+          {
+            "_id": "9b3cdbfa-6e2d-48d9-98e5-d268e833f4db",
+            "prod_id": "prd_LMXXKn9E0EMr",
+            "product_name": "测试订单账单专用不修改",
+            "prod_inst_id_ext_array": [
+              "00a3533c-b24a-4cf1-af3c-b8dbdcbc2220"
+            ],
+            "plan": {
+              "components": [
+              {
+                "comp_id": "comp_lD4wwZKw8AOj",
+                "attrs_id_value": [
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": "3"
+                }
+                ]
+              }
+              ],
+              "plan_id": "plan_vg6n0LoE0ZmZ"
+            }
+          },
+          {
+            "_id": "a7d8a7a3-5df3-40ca-9cfe-54e9fc672cb3",
+            "prod_id": "prd_LMXXKn9E0EMr",
+            "product_name": "测试订单账单专用不修改",
+            "prod_inst_id_ext_array": [
+              "d76b988f-86b3-436f-8fb4-53027b39c9e1"
+            ],
+            "plan": {
+              "components": [
+              {
+                "comp_id": "comp_LNDQpmZG9gMr",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              },
+              {
+                "comp_id": "comp_JR3j9XP12WY4",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              },
+              {
+                "comp_id": "comp_j7w22yLmgXB8",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              },
+              {
+                "comp_id": "comp_rJ9P5rlJkJ5O",
+                "attrs_id_value": [
+                {
+                  "attr_id": "patr_PackageBillingMode",
+                  "attr_value": "包年包月-按月计费"
+                },
+                {
+                  "attr_id": "patr_PackageMonth",
+                  "attr_value": "2"
+                },
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": ""
+                }
+                ]
+              }
+              ],
+              "plan_id": "plan_7APnE54k8kY4"
+            }
+          }
+          ]
+        }
+      header: {
+        'Grpc-Metadata-nb': '1',
+      }
+
+    #订单-购买多个产品-一个按时间使用量一个按资源使用量付费#
+    - url: http://139.198.121.68:19300/v1/prdorders?
+      data:
+        {
+          "access_sys_id": "sys_B99J7xk9DRJD",
+          "order_user_id": "userid_xiaoying",
+          "order_user_name": "王小英",
+          "order_type": "new",
+          "description": "小英的测试订单",
+          "order_product_set": [
+          {
+            "_id": "4530f0cf-61f0-40df-b037-25fbf4dfc793",
+            "prod_id": "prd_LMXXKn9E0EMr",
+            "product_name": "测试订单账单专用不修改",
+            "prod_inst_id_ext_array": [
+              "41735cd6-963f-402d-9043-de9267f05fb2"
+            ],
+            "plan": {
+              "components": [
+              {
+                "comp_id": "comp_P8gXZpN38AOj",
+                "attrs_id_value": [
+                {
+                  "attr_id": "atr_rv0g7X4jQA5K",
+                  "attr_value": ""
+                },
+                {
+                  "attr_id": "atr_YVjq0rmL8wJD",
+                  "attr_value": "5"
+                }
+                ]
+              }
+              ],
+              "plan_id": "plan_6EWJqY3nLWY4"
+            }
+          },
+          {
+            "_id": "5e89dc1b-f356-4132-9d55-dafed716ae3c",
+            "prod_id": "prd_rBQzl1P3BA5K",
+            "product_name": "测试订单账单专用2不修改",
+            "prod_inst_id_ext_array": [
+              "59a77d91-bd11-4983-b7c9-ef2dee74dae9"
+            ],
+            "plan": {
+              "components": [
+              {
+                "comp_id": "comp_BQJq8DRAkJ5O",
+                "attrs_id_value": [
+                {
+                  "attr_id": "atr_M58rJ8VLrJ0V",
+                  "attr_value": "12"
+                }
+                ]
+              }
+              ],
+              "plan_id": "plan_50Zv7wARAXB8"
+            }
+          }
+          ]
+        }
+      header: {
+        'Grpc-Metadata-nb': '1',
+      }

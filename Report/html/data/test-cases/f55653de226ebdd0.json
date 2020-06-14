@@ -1,0 +1,58 @@
+{
+  "uid" : "f55653de226ebdd0",
+  "name" : "TestOrder.test_order_04",
+  "fullName" : "TestCase.test_order.TestOrder.test_order_04",
+  "historyId" : "71417ddc0643d105fb7226c2b7005605",
+  "time" : {
+    "start" : 1591787992146,
+    "stop" : 1591787992568,
+    "duration" : 422
+  },
+  "description" : "\n        用例描述：购买单个产品-匹配多个方案（其中包括按量和按包）-支付订单\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：购买单个产品-匹配多个方案（其中包括按量和按包）-支付订单\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "wangxiaoyingdeMacBook-Pro.local"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "购买产品支付订单场景4"
+  }, {
+    "name" : "thread",
+    "value" : "8739-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestOrder.test_order_04"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f55653de226ebdd0.json",
+  "parameterValues" : [ ]
+}

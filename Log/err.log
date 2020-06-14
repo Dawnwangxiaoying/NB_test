@@ -1,0 +1,10 @@
+
+[ERROR 2020-06-09 10:24:31]Response body Does not contain expected_msg, expected_msg is order_id
+[ERROR 2020-06-09 10:27:09]Response body Does not contain expected_msg, expected_msg is order_id
+[ERROR 2020-06-09 10:27:23]Response body Does not contain expected_msg, expected_msg is order_id
+[ERROR 2020-06-09 10:28:22]Response body Does not contain expected_msg, expected_msg is order_id
+[ERROR 2020-06-09 14:40:29]Response body Does not contain expected_msg, expected_msg is order_id
+[ERROR 2020-06-09 14:43:58]Response body Does not contain expected_msg, expected_msg is order_id
+[ERROR 2020-06-10 18:51:14]statusCode error, expected_code is paid, statusCode is (('paid',),) 
+[ERROR 2020-06-10 18:55:25]statusCode error, expected_code is paid, statusCode is (('paid',),) 
+[ERROR 2020-06-10 18:57:10]statusCode error, expected_code is paid, statusCode is ('paid',) 

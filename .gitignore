@@ -1,0 +1,10 @@
+.DS_Store
+.cache
+*.py[cod]
+.settings
+.project
+.pydevproject
+*~
+.idea
+*.swp
+tags

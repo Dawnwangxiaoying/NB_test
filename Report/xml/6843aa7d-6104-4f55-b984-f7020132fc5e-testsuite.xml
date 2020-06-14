@@ -1,0 +1,76 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1591787990957" stop="1591787992967">
+  <name>TestCase.test_order</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1591787990957" status="passed" stop="1591787991361">
+      <description>
+        用例描述：购买单个产品-匹配单个计费项下单个策略-支付订单
+        </description>
+      <name>TestOrder.test_order_01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="feature" value="购买产品支付订单场景1"/>
+        <label name="thread" value="8739-MainThread"/>
+        <label name="host" value="wangxiaoyingdeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591787991362" status="passed" stop="1591787991738">
+      <description>
+        用例描述：购买单个产品-匹配同一方案下两个计费项（计费项下的策略都是按包计费）-购买两个产品实例-支付订单
+        </description>
+      <name>TestOrder.test_order_02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="story" value="购买产品支付订单场景2"/>
+        <label name="thread" value="8739-MainThread"/>
+        <label name="host" value="wangxiaoyingdeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591787991739" status="passed" stop="1591787992145">
+      <description>
+        用例描述：购买单个产品-匹配同一方案下多个计费项（计费项下的策略有按包计费也有按量计费）-支付订单
+        </description>
+      <name>TestOrder.test_order_03</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="story" value="购买产品支付订单场景3"/>
+        <label name="thread" value="8739-MainThread"/>
+        <label name="host" value="wangxiaoyingdeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591787992146" status="passed" stop="1591787992568">
+      <description>
+        用例描述：购买单个产品-匹配多个方案（其中包括按量和按包）-支付订单
+        </description>
+      <name>TestOrder.test_order_04</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="story" value="购买产品支付订单场景4"/>
+        <label name="thread" value="8739-MainThread"/>
+        <label name="host" value="wangxiaoyingdeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1591787992569" status="passed" stop="1591787992967">
+      <description>
+        用例描述：购买多个产品-一个按时间使用量一个按资源使用量付费-支付订单
+        </description>
+      <name>TestOrder.test_order_05</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="story" value="购买产品支付订单场景5"/>
+        <label name="thread" value="8739-MainThread"/>
+        <label name="host" value="wangxiaoyingdeMacBook-Pro.local"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

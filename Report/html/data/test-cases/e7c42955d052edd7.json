@@ -1,0 +1,58 @@
+{
+  "uid" : "e7c42955d052edd7",
+  "name" : "TestOrder.test_order_03",
+  "fullName" : "TestCase.test_order.TestOrder.test_order_03",
+  "historyId" : "c018094ca9a886d5d258df36b35cefe1",
+  "time" : {
+    "start" : 1591787991739,
+    "stop" : 1591787992145,
+    "duration" : 406
+  },
+  "description" : "\n        用例描述：购买单个产品-匹配同一方案下多个计费项（计费项下的策略有按包计费也有按量计费）-支付订单\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：购买单个产品-匹配同一方案下多个计费项（计费项下的策略有按包计费也有按量计费）-支付订单\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "wangxiaoyingdeMacBook-Pro.local"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "购买产品支付订单场景3"
+  }, {
+    "name" : "thread",
+    "value" : "8739-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestOrder.test_order_03"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7c42955d052edd7.json",
+  "parameterValues" : [ ]
+}
