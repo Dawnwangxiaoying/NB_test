@@ -1,96 +1,21 @@
 {
-  "ac1c605e6dce2cb2168ab8a1195957d2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1abbddb1f3b6325d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591787991362,
-        "stop" : 1591787991738,
-        "duration" : 376
-      }
-    } ]
-  },
-  "71417ddc0643d105fb7226c2b7005605" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f55653de226ebdd0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591787992146,
-        "stop" : 1591787992568,
-        "duration" : 422
-      }
-    } ]
-  },
-  "c018094ca9a886d5d258df36b35cefe1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e7c42955d052edd7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591787991739,
-        "stop" : 1591787992145,
-        "duration" : 406
-      }
-    } ]
-  },
   "40ce12426cece3fedcf472baa5a42fa1" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d643b55ff2745b0a",
-      "status" : "passed",
+      "uid" : "12d07ad047e847c5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10abdee48>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...newbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 584.06, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10abdee48>> = <Common.Assert.Assertions object at 0x10abdee48>.assert_in_text",
       "time" : {
-        "start" : 1591787990957,
-        "stop" : 1591787991361,
-        "duration" : 404
-      }
-    } ]
-  },
-  "718762dd5a1b04044f224d204760fca1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "58c642b8151fc86",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591787992569,
-        "stop" : 1591787992967,
-        "duration" : 398
+        "start" : 1593315324285,
+        "stop" : 1593315325937,
+        "duration" : 1652
       }
     } ]
   }

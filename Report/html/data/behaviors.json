@@ -5,86 +5,18 @@
     "name" : "购买产品支付订单场景1",
     "children" : [ {
       "name" : "TestOrder.test_order_01",
-      "uid" : "d643b55ff2745b0a",
+      "uid" : "12d07ad047e847c5",
       "parentUid" : "a9052abe255525b36939f76a0d03c7ba",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1591787990957,
-        "stop" : 1591787991361,
-        "duration" : 404
+        "start" : 1593315324285,
+        "stop" : 1593315325937,
+        "duration" : 1652
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "a9052abe255525b36939f76a0d03c7ba"
-  }, {
-    "name" : "购买产品支付订单场景2",
-    "children" : [ {
-      "name" : "TestOrder.test_order_02",
-      "uid" : "1abbddb1f3b6325d",
-      "parentUid" : "c0621f9bd61fd9d1335fac8ca7ced061",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591787991362,
-        "stop" : 1591787991738,
-        "duration" : 376
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "c0621f9bd61fd9d1335fac8ca7ced061"
-  }, {
-    "name" : "购买产品支付订单场景3",
-    "children" : [ {
-      "name" : "TestOrder.test_order_03",
-      "uid" : "e7c42955d052edd7",
-      "parentUid" : "c40fa637328e5dbf578d8e5ee3869a85",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591787991739,
-        "stop" : 1591787992145,
-        "duration" : 406
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "c40fa637328e5dbf578d8e5ee3869a85"
-  }, {
-    "name" : "购买产品支付订单场景4",
-    "children" : [ {
-      "name" : "TestOrder.test_order_04",
-      "uid" : "f55653de226ebdd0",
-      "parentUid" : "84157bef3050eae02d94008396820df2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591787992146,
-        "stop" : 1591787992568,
-        "duration" : 422
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "84157bef3050eae02d94008396820df2"
-  }, {
-    "name" : "购买产品支付订单场景5",
-    "children" : [ {
-      "name" : "TestOrder.test_order_05",
-      "uid" : "58c642b8151fc86",
-      "parentUid" : "f918daecf5552fe4e5bf786222388179",
-      "status" : "passed",
-      "time" : {
-        "start" : 1591787992569,
-        "stop" : 1591787992967,
-        "duration" : 398
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "f918daecf5552fe4e5bf786222388179"
   } ]
 }

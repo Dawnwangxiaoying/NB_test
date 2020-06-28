@@ -2,77 +2,25 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "wangxiaoyingdeMacBook-Pro.local",
+    "name" : "wangxiaingdembp",
     "children" : [ {
-      "name" : "8739-MainThread",
+      "name" : "28154-MainThread",
       "children" : [ {
         "name" : "TestOrder.test_order_01",
-        "uid" : "d643b55ff2745b0a",
-        "parentUid" : "f3769add4ce12f3c260d86dfeeb5d3da",
-        "status" : "passed",
+        "uid" : "12d07ad047e847c5",
+        "parentUid" : "6636bf3de9926445cddda91a5168622d",
+        "status" : "failed",
         "time" : {
-          "start" : 1591787990957,
-          "stop" : 1591787991361,
-          "duration" : 404
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TestOrder.test_order_04",
-        "uid" : "f55653de226ebdd0",
-        "parentUid" : "f3769add4ce12f3c260d86dfeeb5d3da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1591787992146,
-          "stop" : 1591787992568,
-          "duration" : 422
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TestOrder.test_order_03",
-        "uid" : "e7c42955d052edd7",
-        "parentUid" : "f3769add4ce12f3c260d86dfeeb5d3da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1591787991739,
-          "stop" : 1591787992145,
-          "duration" : 406
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TestOrder.test_order_05",
-        "uid" : "58c642b8151fc86",
-        "parentUid" : "f3769add4ce12f3c260d86dfeeb5d3da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1591787992569,
-          "stop" : 1591787992967,
-          "duration" : 398
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "TestOrder.test_order_02",
-        "uid" : "1abbddb1f3b6325d",
-        "parentUid" : "f3769add4ce12f3c260d86dfeeb5d3da",
-        "status" : "passed",
-        "time" : {
-          "start" : 1591787991362,
-          "stop" : 1591787991738,
-          "duration" : 376
+          "start" : 1593315324285,
+          "stop" : 1593315325937,
+          "duration" : 1652
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f3769add4ce12f3c260d86dfeeb5d3da"
+      "uid" : "6636bf3de9926445cddda91a5168622d"
     } ],
-    "uid" : "386bc3ceb1da765d954aca7d2283fdb7"
+    "uid" : "cefaec4f0fa419e9e184926362b2f4ce"
   } ]
 }

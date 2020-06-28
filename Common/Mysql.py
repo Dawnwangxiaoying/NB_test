@@ -32,7 +32,7 @@ class Mysqlconnect:
         con.close()
         return msg[0]
 
-
+#
 # sqlinfo = Mysqlconnect()
-# info = sqlinfo.info('subscription','select * from prd_order where order_id = "299675166110122645"')
+# info = sqlinfo.info('subscription','select * from prd_order')
 # print(info[0])
