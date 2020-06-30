@@ -9,7 +9,6 @@ import pymysql
 from Conf.Config import Config
 
 
-
 class Mysqlconnect:
     def __init__(self):
         conf = Config()

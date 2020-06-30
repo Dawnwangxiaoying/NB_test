@@ -95,7 +95,7 @@ class Assertions:
     def assert_time(self, time, expected_time):
         """
         验证response body响应时间小于预期最大响应时间,单位：毫秒
-        :param body:
+        :param time:
         :param expected_time:
         :return:
         """
