@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10abdee48>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...newbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 584.06, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10abdee48>> = <Common.Assert.Assertions object at 0x10abdee48>.assert_in_text",
+      "name" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10ada26d8>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 579.757, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10ada26d8>> = <Common.Assert.Assertions object at 0x10ada26d8>.assert_in_text",
       "children" : [ {
         "name" : "TestOrder.test_order_01",
-        "uid" : "12d07ad047e847c5",
-        "parentUid" : "fff37079db3df33aaed332904827f3c6",
+        "uid" : "e72d55e4750951bf",
+        "parentUid" : "e7a177f59b3173d8f42213217661a0ce",
         "status" : "failed",
         "time" : {
-          "start" : 1593315324285,
-          "stop" : 1593315325937,
-          "duration" : 1652
+          "start" : 1593330297488,
+          "stop" : 1593330299135,
+          "duration" : 1647
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "fff37079db3df33aaed332904827f3c6"
+      "uid" : "e7a177f59b3173d8f42213217661a0ce"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

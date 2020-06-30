@@ -1,0 +1,25 @@
+---
+Products:
+  dec: "产品"
+  parameters:
+  #创建产品#
+    -
+      url: /v1/products?
+      data:
+        {"name":"产品","cata_id":"","access_sys_id":""}
+      header: {
+        'Grpc-Metadata-nb': '1',
+        'Content-Type': 'application/json',
+        'Cookie': 'sk=QPOOFGYHQBDGXGPA3P4E47U7IISSUXDXE7OVCCR5G6VCXJCX5TDI3OGJEX3CRT2L7VYERWCHZJ3U24ISZYDJT4242WVO3MJNCO6R73I'
+      }
+
+    #编辑产品名称#
+    -
+      url:
+      data:
+      header: {
+
+          "Grpc-Metadata-nb":"1"
+
+              }
+

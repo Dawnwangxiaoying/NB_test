@@ -6,6 +6,7 @@ import os
 
 
 class Config:
+    #本地调试用
     os.environ['Environ'] = 'test'
     # titles:
     TITLE_DEBUG = "private_test"

@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "12d07ad047e847c5",
+      "uid" : "e72d55e4750951bf",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10abdee48>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...newbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 584.06, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10abdee48>> = <Common.Assert.Assertions object at 0x10abdee48>.assert_in_text",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10ada26d8>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 579.757, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10ada26d8>> = <Common.Assert.Assertions object at 0x10ada26d8>.assert_in_text",
       "time" : {
-        "start" : 1593315324285,
-        "stop" : 1593315325937,
-        "duration" : 1652
+        "start" : 1593330297488,
+        "stop" : 1593330299135,
+        "duration" : 1647
       }
     } ]
   }

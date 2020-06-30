@@ -1,1 +1,1 @@
-sudo pip install -r test-requirements.txt
+sudo pip install -r requirements.txt

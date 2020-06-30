@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "wangxiaingdembp",
     "children" : [ {
-      "name" : "28154-MainThread",
+      "name" : "29409-MainThread",
       "children" : [ {
         "name" : "TestOrder.test_order_01",
-        "uid" : "12d07ad047e847c5",
-        "parentUid" : "6636bf3de9926445cddda91a5168622d",
+        "uid" : "e72d55e4750951bf",
+        "parentUid" : "35521fc399f9065dfedc32f5446485d5",
         "status" : "failed",
         "time" : {
-          "start" : 1593315324285,
-          "stop" : 1593315325937,
-          "duration" : 1652
+          "start" : 1593330297488,
+          "stop" : 1593330299135,
+          "duration" : 1647
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6636bf3de9926445cddda91a5168622d"
+      "uid" : "35521fc399f9065dfedc32f5446485d5"
     } ],
     "uid" : "cefaec4f0fa419e9e184926362b2f4ce"
   } ]
