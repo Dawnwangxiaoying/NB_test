@@ -5,13 +5,13 @@
     "name" : "TestCase.test_order",
     "children" : [ {
       "name" : "TestOrder.test_order_01",
-      "uid" : "e72d55e4750951bf",
+      "uid" : "5ee021429c23956",
       "parentUid" : "f26a2b558575dcf3613d6c2224228561",
       "status" : "failed",
       "time" : {
-        "start" : 1593330297488,
-        "stop" : 1593330299135,
-        "duration" : 1647
+        "start" : 1593595322358,
+        "stop" : 1593595324018,
+        "duration" : 1660
       },
       "flaky" : false,
       "newFailed" : false,

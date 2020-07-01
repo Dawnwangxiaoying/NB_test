@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sun Jun 28 15:44:57 CST 2020","Sun Jun 28 15:44:59 CST 2020","1647","","TestCase.test_order","","TestCase.test_order","TestOrder.test_order_01","TestOrder.test_order_01","
+"failed","Wed Jul 01 17:22:02 CST 2020","Wed Jul 01 17:22:04 CST 2020","1660","","TestCase.test_order","","TestCase.test_order","TestOrder.test_order_01","TestOrder.test_order_01","
         用例描述：购买单个产品-匹配单个计费项下多个策略-支付订单
         "

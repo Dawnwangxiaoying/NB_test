@@ -1,10 +1,10 @@
 [ {
-  "uid" : "e72d55e4750951bf",
+  "uid" : "5ee021429c23956",
   "name" : "TestOrder.test_order_01",
   "time" : {
-    "start" : 1593330297488,
-    "stop" : 1593330299135,
-    "duration" : 1647
+    "start" : 1593595322358,
+    "stop" : 1593595324018,
+    "duration" : 1660
   },
   "status" : "failed",
   "severity" : "blocker"

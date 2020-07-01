@@ -8,13 +8,11 @@ from Conf.Config import Config
 from Common import Session
 from Params.params import User
 
-
 class TestUser:
 
     @pytest.allure.feature('创建用户')
     @allure.severity('blocker')
 
-    @pytest.fixture()
     def test_user_01(self):
         """
         用例描述：正常创建用户-正常创建角色-角色关联权限-用户关联角色
@@ -31,13 +29,19 @@ class TestUser:
         session = Session.Session()
         token = session.get_session()[0]
         print(token)
-        req_url = 'http://' + host + urls[0]
-        header = {'Authorization': token,'Content-Type': 'application/json','Cookie': 'sk=QPOOFGYHQBDGXGPA3P4E47U7IISSUXDXE7OVCCR5G6VCXJCX5TDI3OGJEX3CRT2L7VYERWCHZJ3U24ISZYDJT4242WVO3MJNCO6R73I'}
+        access_sys_id = session.get_session()[2]
+        header = {'Authorization': "Bearer "+token,'Content-Type': 'application/json'}
 
         # 创建用户
-        response = request.post_request(req_url, params[0], header)
+        req_url_user = 'http://' + host + urls[0]
+        response = request.post_request(req_url_user, params[0], header)
         assert Asserts.assert_in_text(response, 'user_id')
-        print(response)
-        # order_id = response['body']['order_id']
 
-        # return user_id
+
+        # 创建角色
+        req_url_roles = 'http://' + host + urls[1]
+        prs = {"role_name": "角色名称","access_sys_id": access_sys_id,"description": "角色描述"}
+        response = request.post_request(req_url_roles, prs, header)
+        # assert Asserts.assert_code(response['code'], 200)//接口返回有问题
+
+        # 角色关联用户

@@ -33,8 +33,8 @@ class Session:
 
 
 
-# if __name__ == '__main__':
-#     ss = Session()
-#     ss.get_session()
-#     s1 = ss.get_session()[0]
-#     print(s1)
+if __name__ == '__main__':
+    ss = Session()
+    ss.get_session()
+    s1 = ss.get_session()[2]
+    print(s1)

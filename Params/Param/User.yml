@@ -7,9 +7,12 @@ User:
       url: /v1/users
       data:
         {
-          "email": "test@123.com",
+          "email": "test335333@123.com",
           "passwd": "123456",
           "phone": "13982928292"
         }
+  #角色#
+    - url: v1/roles
+      data:
 
 
