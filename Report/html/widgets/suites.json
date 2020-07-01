@@ -1,13 +1,24 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "a4c27ca40b1605cd8b627b66858eca2f",
     "name" : "TestCase.test_order",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "1087ba9174b4dc8d50d0a2adb5d323ad",
+    "name" : "TestCase.test_user",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

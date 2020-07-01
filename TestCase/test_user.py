@@ -10,7 +10,7 @@ from Params.params import User
 
 class TestUser:
 
-    @pytest.allure.feature('创建用户')
+    @pytest.allure.feature('创建用户和角色并关联')
     @allure.severity('blocker')
 
     def test_user_01(self):

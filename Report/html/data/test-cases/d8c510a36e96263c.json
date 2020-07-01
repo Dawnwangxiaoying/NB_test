@@ -1,0 +1,64 @@
+{
+  "uid" : "d8c510a36e96263c",
+  "name" : "TestOrder.test_order_05",
+  "fullName" : "TestCase.test_order.TestOrder.test_order_05",
+  "historyId" : "718762dd5a1b04044f224d204760fca1",
+  "time" : {
+    "start" : 1593597354750,
+    "stop" : 1593597356417,
+    "duration" : 1667
+  },
+  "description" : "\n        用例描述：购买多个产品-一个按时间使用量一个按资源使用量付费-支付订单\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：购买多个产品-一个按时间使用量一个按资源使用量付费-支付订单\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a3e48>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 650.576, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a3e48>> = <Common.Assert.Assertions object at 0x1052a3e48>.assert_in_text",
+  "statusTrace" : "self = <TestCase.test_order.TestOrder object at 0x1052a3a20>\n\n    @allure.severity('critical')\n    @allure.story('购买产品支付订单场景5')\n    def test_order_05(self):\n        \"\"\"\n            用例描述：购买多个产品-一个按时间使用量一个按资源使用量付费-支付订单\n            \"\"\"\n        data = Order()\n        urls = data.url\n        params = data.data\n        header = data.header\n        request = Request.Request()\n        Asserts = Assert.Assertions()\n        conf = Config()\n        host = conf.host\n        req_url = 'http://' + host\n        api_url = req_url + urls[0]\n        sqlinfo = Mysql.Mysqlconnect()\n    \n        # 创建订单\n        response = request.post_request(api_url, params[5], header[0])\n>       assert Asserts.assert_in_text(response, 'order_id')\nE       assert False\nE        +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a3e48>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 650.576, ...}, 'order_id')\nE        +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a3e48>> = <Common.Assert.Assertions object at 0x1052a3e48>.assert_in_text\n\nTestCase/test_order.py:159: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "wangxiaingdembp"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "购买产品支付订单场景5"
+  }, {
+    "name" : "thread",
+    "value" : "4847-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestOrder.test_order_05"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "d8c510a36e96263c.json",
+  "parameterValues" : [ ]
+}

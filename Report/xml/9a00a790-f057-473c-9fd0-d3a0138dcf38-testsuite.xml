@@ -1,0 +1,22 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1593597356418" stop="1593597356656">
+  <name>TestCase.test_user</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1593597356418" status="passed" stop="1593597356656">
+      <description>
+        用例描述：正常创建用户-正常创建角色-角色关联权限-用户关联角色
+        :return:usreid
+
+        </description>
+      <name>TestUser.test_user_01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="feature" value="创建用户和角色并关联"/>
+        <label name="thread" value="4847-MainThread"/>
+        <label name="host" value="wangxiaingdembp"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

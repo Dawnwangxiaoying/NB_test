@@ -1,4 +1,21 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Wed Jul 01 17:22:02 CST 2020","Wed Jul 01 17:22:04 CST 2020","1660","","TestCase.test_order","","TestCase.test_order","TestOrder.test_order_01","TestOrder.test_order_01","
+"failed","Wed Jul 01 17:55:53 CST 2020","Wed Jul 01 17:55:54 CST 2020","1587","","TestCase.test_order","","TestCase.test_order","TestOrder.test_order_04","TestOrder.test_order_04","
+        用例描述：购买单个产品-匹配多个方案（其中包括按量和按包）-支付订单
+        "
+"passed","Wed Jul 01 17:55:56 CST 2020","Wed Jul 01 17:55:56 CST 2020","238","","TestCase.test_user","","TestCase.test_user","TestUser.test_user_01","TestUser.test_user_01","
+        用例描述：正常创建用户-正常创建角色-角色关联权限-用户关联角色
+        :return:usreid
+
+        "
+"failed","Wed Jul 01 17:55:51 CST 2020","Wed Jul 01 17:55:53 CST 2020","1589","","TestCase.test_order","","TestCase.test_order","TestOrder.test_order_03","TestOrder.test_order_03","
+        用例描述：购买单个产品-匹配同一方案下多个计费项（计费项下的策略有按包计费也有按量计费）-支付订单
+        "
+"failed","Wed Jul 01 17:55:49 CST 2020","Wed Jul 01 17:55:51 CST 2020","1588","","TestCase.test_order","","TestCase.test_order","TestOrder.test_order_02","TestOrder.test_order_02","
+        用例描述：购买单个产品-匹配同一方案下多个计费项（计费项下的策略都是按包计费）-购买两个产品实例-支付订单
+        "
+"failed","Wed Jul 01 17:55:54 CST 2020","Wed Jul 01 17:55:56 CST 2020","1667","","TestCase.test_order","","TestCase.test_order","TestOrder.test_order_05","TestOrder.test_order_05","
+        用例描述：购买多个产品-一个按时间使用量一个按资源使用量付费-支付订单
+        "
+"failed","Wed Jul 01 17:55:48 CST 2020","Wed Jul 01 17:55:49 CST 2020","1650","","TestCase.test_order","","TestCase.test_order","TestOrder.test_order_01","TestOrder.test_order_01","
         用例描述：购买单个产品-匹配单个计费项下多个策略-支付订单
         "

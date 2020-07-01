@@ -4,22 +4,90 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x107962eb8>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 588.934, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x107962eb8>> = <Common.Assert.Assertions object at 0x107962eb8>.assert_in_text",
+      "name" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1049cfbe0>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 590.872, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1049cfbe0>> = <Common.Assert.Assertions object at 0x1049cfbe0>.assert_in_text",
       "children" : [ {
         "name" : "TestOrder.test_order_01",
-        "uid" : "5ee021429c23956",
-        "parentUid" : "88a8b2260d1f92a9747c6e5129912782",
+        "uid" : "9c93dde7b1a653b2",
+        "parentUid" : "431f7abdfd7bd849e9ca1026986870ee",
         "status" : "failed",
         "time" : {
-          "start" : 1593595322358,
-          "stop" : 1593595324018,
-          "duration" : 1660
+          "start" : 1593597348333,
+          "stop" : 1593597349983,
+          "duration" : 1650
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "88a8b2260d1f92a9747c6e5129912782"
+      "uid" : "431f7abdfd7bd849e9ca1026986870ee"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1049c2b00>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 574.244, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1049c2b00>> = <Common.Assert.Assertions object at 0x1049c2b00>.assert_in_text",
+      "children" : [ {
+        "name" : "TestOrder.test_order_02",
+        "uid" : "9079c18ec2737b0b",
+        "parentUid" : "6d049f8eeab754842744dd59b21c810d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593597349984,
+          "stop" : 1593597351572,
+          "duration" : 1588
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d049f8eeab754842744dd59b21c810d"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a77b8>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 576.952, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a77b8>> = <Common.Assert.Assertions object at 0x1052a77b8>.assert_in_text",
+      "children" : [ {
+        "name" : "TestOrder.test_order_03",
+        "uid" : "f92836a9f5601dc8",
+        "parentUid" : "1e2105a9efd99e7403c55fe2ac3585df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593597351573,
+          "stop" : 1593597353162,
+          "duration" : 1589
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e2105a9efd99e7403c55fe2ac3585df"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10528e208>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 573.339, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10528e208>> = <Common.Assert.Assertions object at 0x10528e208>.assert_in_text",
+      "children" : [ {
+        "name" : "TestOrder.test_order_04",
+        "uid" : "3f0991232ffcd548",
+        "parentUid" : "84e1f871f004c2bb8f09ae8606806e4a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593597353163,
+          "stop" : 1593597354750,
+          "duration" : 1587
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "84e1f871f004c2bb8f09ae8606806e4a"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a3e48>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 650.576, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a3e48>> = <Common.Assert.Assertions object at 0x1052a3e48>.assert_in_text",
+      "children" : [ {
+        "name" : "TestOrder.test_order_05",
+        "uid" : "d8c510a36e96263c",
+        "parentUid" : "a300a26644eb8fc2bc19e50ad7929b14",
+        "status" : "failed",
+        "time" : {
+          "start" : 1593597354750,
+          "stop" : 1593597356417,
+          "duration" : 1667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a300a26644eb8fc2bc19e50ad7929b14"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

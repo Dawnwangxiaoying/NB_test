@@ -5,18 +5,103 @@
     "name" : "购买产品支付订单场景1",
     "children" : [ {
       "name" : "TestOrder.test_order_01",
-      "uid" : "5ee021429c23956",
+      "uid" : "9c93dde7b1a653b2",
       "parentUid" : "a9052abe255525b36939f76a0d03c7ba",
       "status" : "failed",
       "time" : {
-        "start" : 1593595322358,
-        "stop" : 1593595324018,
-        "duration" : 1660
+        "start" : 1593597348333,
+        "stop" : 1593597349983,
+        "duration" : 1650
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
     "uid" : "a9052abe255525b36939f76a0d03c7ba"
+  }, {
+    "name" : "购买产品支付订单场景2",
+    "children" : [ {
+      "name" : "TestOrder.test_order_02",
+      "uid" : "9079c18ec2737b0b",
+      "parentUid" : "c0621f9bd61fd9d1335fac8ca7ced061",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593597349984,
+        "stop" : 1593597351572,
+        "duration" : 1588
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c0621f9bd61fd9d1335fac8ca7ced061"
+  }, {
+    "name" : "购买产品支付订单场景3",
+    "children" : [ {
+      "name" : "TestOrder.test_order_03",
+      "uid" : "f92836a9f5601dc8",
+      "parentUid" : "c40fa637328e5dbf578d8e5ee3869a85",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593597351573,
+        "stop" : 1593597353162,
+        "duration" : 1589
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c40fa637328e5dbf578d8e5ee3869a85"
+  }, {
+    "name" : "购买产品支付订单场景4",
+    "children" : [ {
+      "name" : "TestOrder.test_order_04",
+      "uid" : "3f0991232ffcd548",
+      "parentUid" : "84157bef3050eae02d94008396820df2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593597353163,
+        "stop" : 1593597354750,
+        "duration" : 1587
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "84157bef3050eae02d94008396820df2"
+  }, {
+    "name" : "购买产品支付订单场景5",
+    "children" : [ {
+      "name" : "TestOrder.test_order_05",
+      "uid" : "d8c510a36e96263c",
+      "parentUid" : "f918daecf5552fe4e5bf786222388179",
+      "status" : "failed",
+      "time" : {
+        "start" : 1593597354750,
+        "stop" : 1593597356417,
+        "duration" : 1667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f918daecf5552fe4e5bf786222388179"
+  }, {
+    "name" : "创建用户和角色并关联",
+    "children" : [ {
+      "name" : "TestUser.test_user_01",
+      "uid" : "b3ad3884dab5d914",
+      "parentUid" : "11ec46c81812e67bac1d6d2fb184d4dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593597356418,
+        "stop" : 1593597356656,
+        "duration" : 238
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "11ec46c81812e67bac1d6d2fb184d4dd"
   } ]
 }

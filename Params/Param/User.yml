@@ -7,7 +7,7 @@ User:
       url: /v1/users
       data:
         {
-          "email": "test335333@123.com",
+          "email": "xiaoying@123.com",
           "passwd": "123456",
           "phone": "13982928292"
         }

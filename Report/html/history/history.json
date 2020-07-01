@@ -1,4 +1,64 @@
 {
+  "ac1c605e6dce2cb2168ab8a1195957d2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9079c18ec2737b0b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1049c2b00>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 574.244, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1049c2b00>> = <Common.Assert.Assertions object at 0x1049c2b00>.assert_in_text",
+      "time" : {
+        "start" : 1593597349984,
+        "stop" : 1593597351572,
+        "duration" : 1588
+      }
+    } ]
+  },
+  "71417ddc0643d105fb7226c2b7005605" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f0991232ffcd548",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10528e208>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 573.339, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x10528e208>> = <Common.Assert.Assertions object at 0x10528e208>.assert_in_text",
+      "time" : {
+        "start" : 1593597353163,
+        "stop" : 1593597354750,
+        "duration" : 1587
+      }
+    } ]
+  },
+  "c018094ca9a886d5d258df36b35cefe1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f92836a9f5601dc8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a77b8>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 576.952, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a77b8>> = <Common.Assert.Assertions object at 0x1052a77b8>.assert_in_text",
+      "time" : {
+        "start" : 1593597351573,
+        "stop" : 1593597353162,
+        "duration" : 1589
+      }
+    } ]
+  },
   "40ce12426cece3fedcf472baa5a42fa1" : {
     "statistic" : {
       "failed" : 1,
@@ -9,13 +69,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ee021429c23956",
+      "uid" : "9c93dde7b1a653b2",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x107962eb8>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 588.934, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x107962eb8>> = <Common.Assert.Assertions object at 0x107962eb8>.assert_in_text",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1049cfbe0>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 590.872, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1049cfbe0>> = <Common.Assert.Assertions object at 0x1049cfbe0>.assert_in_text",
       "time" : {
-        "start" : 1593595322358,
-        "stop" : 1593595324018,
-        "duration" : 1660
+        "start" : 1593597348333,
+        "stop" : 1593597349983,
+        "duration" : 1650
+      }
+    } ]
+  },
+  "acf92a2b1aac0a90af49201834dc9e93" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3ad3884dab5d914",
+      "status" : "passed",
+      "time" : {
+        "start" : 1593597356418,
+        "stop" : 1593597356656,
+        "duration" : 238
+      }
+    } ]
+  },
+  "718762dd5a1b04044f224d204760fca1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d8c510a36e96263c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a3e48>>({'body': {'code': 13, 'details': [{'@type': 'type.googleapis.com/newbilling.ErrorDetail', 'cause': '调用GetCosts接口失败', '...ewbilling.ErrorDetail\",\"error_name\":\"create_order_failed\",\"cause\":\"调用GetCosts接口失败\"}]}', 'time_consuming': 650.576, ...}, 'order_id')\n +    where <bound method Assertions.assert_in_text of <Common.Assert.Assertions object at 0x1052a3e48>> = <Common.Assert.Assertions object at 0x1052a3e48>.assert_in_text",
+      "time" : {
+        "start" : 1593597354750,
+        "stop" : 1593597356417,
+        "duration" : 1667
       }
     } ]
   }

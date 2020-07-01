@@ -1,0 +1,58 @@
+{
+  "uid" : "b3ad3884dab5d914",
+  "name" : "TestUser.test_user_01",
+  "fullName" : "TestCase.test_user.TestUser.test_user_01",
+  "historyId" : "acf92a2b1aac0a90af49201834dc9e93",
+  "time" : {
+    "start" : 1593597356418,
+    "stop" : 1593597356656,
+    "duration" : 238
+  },
+  "description" : "\n        用例描述：正常创建用户-正常创建角色-角色关联权限-用户关联角色\n        :return:usreid\n\n        ",
+  "descriptionHtml" : "<pre><code>    用例描述：正常创建用户-正常创建角色-角色关联权限-用户关联角色\n    :return:usreid\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "创建用户和角色并关联"
+  }, {
+    "name" : "host",
+    "value" : "wangxiaingdembp"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "thread",
+    "value" : "4847-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "TestCase.test_user"
+  }, {
+    "name" : "testClass",
+    "value" : "TestCase.test_user"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestUser.test_user_01"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3ad3884dab5d914.json",
+  "parameterValues" : [ ]
+}

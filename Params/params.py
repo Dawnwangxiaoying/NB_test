@@ -8,6 +8,7 @@
 import os
 from Params import tools
 from Common import Log
+
 log = Log.MyLog()
 path_dir = str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
 
