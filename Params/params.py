@@ -29,3 +29,14 @@ class Order:
         url.append(params[i]['url'])
         data.append(params[i]['data'])
         header.append(params[i]['header'])
+
+class User:
+    log.info('解析yaml, Path:' + path_dir + '/Params/Yaml/User.yaml')
+    params = get_parameter('User')
+    url = []
+    data = []
+
+    for i in range(0, len(params)):
+        url.append(params[i]['url'])
+        data.append(params[i]['data'])
+

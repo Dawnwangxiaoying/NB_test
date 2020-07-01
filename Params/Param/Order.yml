@@ -55,7 +55,7 @@ Order:
         'Cookie': 'sk=QPOOFGYHQBDGXGPA3P4E47U7IISSUXDXE7OVCCR5G6VCXJCX5TDI3OGJEX3CRT2L7VYERWCHZJ3U24ISZYDJT4242WVO3MJNCO6R73I'
       }
 
-    #支付订单#
+  #支付订单#
     -
       url: /v1/prdorders/{order_id}:pay
       data:
@@ -66,7 +66,7 @@ Order:
               }
 
 
-    #订单-匹配同一方案多个计费项（计费项下的策略都是按包计费）-购买两个实例#
+  #订单-匹配同一方案多个计费项（计费项下的策略都是按包计费）-购买两个实例#
     - url: /v1/prdorders?
       data:
         {
@@ -159,7 +159,7 @@ Order:
         'Grpc-Metadata-nb': '1',
       }
 
-    #订单-匹配同一方案多个计费项（计费项下的策略有按包计费也有按量计费）#
+   #订单-匹配同一方案多个计费项（计费项下的策略有按包计费也有按量计费）#
     - url: /v1/prdorders?
       data:
         {
@@ -289,7 +289,7 @@ Order:
       }
 
 
-    #订单-匹配多个方案（其中包括按量和按包）#
+  #订单-匹配多个方案（其中包括按量和按包）#
     - url: /v1/prdorders?
       data:
         {
@@ -428,8 +428,8 @@ Order:
         'Grpc-Metadata-nb': '1',
       }
 
-    #订单-购买多个产品-一个按时间使用量一个按资源使用量付费#
-    - url: http://139.198.121.68:19300/v1/prdorders?
+  #订单-购买多个产品-一个按时间使用量一个按资源使用量付费#
+    - url: /v1/prdorders?
       data:
         {
           "access_sys_id": "sys_B99J7xk9DRJD",

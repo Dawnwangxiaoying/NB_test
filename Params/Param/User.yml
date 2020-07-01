@@ -1,0 +1,15 @@
+---
+User:
+  dec: "用户信息"
+  parameters:
+  #用户#
+    -
+      url: /v1/users
+      data:
+        {
+          "email": "test@123.com",
+          "passwd": "123456",
+          "phone": "13982928292"
+        }
+
+

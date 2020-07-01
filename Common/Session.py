@@ -25,13 +25,16 @@ class Session:
         login_url = 'http://' + self.config.host + '/v1/login'
         parm = self.config.loginInfo
         response = requests.post(login_url, parm, headers=headers)
+
         seafiletoken = response.json()['token']
         userid = response.json()['user_id']
         sysid = response.json()['access_sys_id']
-        return seafiletoken , userid , sysid
+        return seafiletoken, userid, sysid
 
 
 
 # if __name__ == '__main__':
 #     ss = Session()
 #     ss.get_session()
+#     s1 = ss.get_session()[0]
+#     print(s1)
